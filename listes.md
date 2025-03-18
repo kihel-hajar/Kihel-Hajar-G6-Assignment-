@@ -358,7 +358,10 @@ print(sorted(liste))
 ```{admonition} Exercice 4.2 : Intersection de listes
 :name: ex4.2
 Écrivez une fonction qui prenne deux listes en entrée et retourne l'intersection des deux listes (c'est-à-dire une liste contenant tous les éléments présents dans les deux listes).
-### Correction 2
+```
+
+### correction 2
+
 # Kihel hajar
 ```def inter(l1,l2):
    
