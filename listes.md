@@ -289,7 +289,7 @@ liste.remove(1) # supprime la première occurrence de 1 dans la liste
 print(liste)
 ```
 
-### Recherche d'élément
+## Recherche d'élément 
 
 Pour trouver l'indice de la première occurrence d'une valeur dans une liste, on utilisera la méthode `index` :
 
@@ -355,11 +355,11 @@ print(sorted(liste))
 
 ### Exercices
 
+
 ```{admonition} Exercice 4.2 : Intersection de listes
 :name: ex4.2
 Écrivez une fonction qui prenne deux listes en entrée et retourne l'intersection des deux listes (c'est-à-dire une liste contenant tous les éléments présents dans les deux listes).
 ```
-
 ### correction 2
 
 # Kihel hajar
@@ -544,3 +544,14 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m�
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
 3. [Union de listes](ex4.3)
+## Exercice 2
+L=[7,3,0,1,0,3,10]
+Effacer tous les zeros
+après  executer L=[7,3,1,3,10]
+## correction 
+L=[7,3,0,1,0,3,10]
+#Effacer tous les zeros
+#après  executer L=[7,3,1,3,10]
+while 0 in L:
+  L.remove (0)
+print (L)
